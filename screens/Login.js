@@ -17,13 +17,13 @@ export default function Login({ navigation }) {
 
   return (
     <View style={styles.container}>
-      <StatusBar
+      {/* <StatusBar
         barStyle="dark-content"
         hidden={false}
         backgroundColor="#5935D5"
         translucent={false}
         networkActivityIndicatorVisible={true}
-      />
+      /> */}
 
       <View style={styles.logoView}>
         <LogoSvgComponent />
